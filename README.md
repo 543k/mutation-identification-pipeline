@@ -1,6 +1,6 @@
 
 ## Python Pipeline Script
-####Identifies SNPs causing colored mold in each patient's ears, and generate a report.
+#### Identifies SNPs causing colored mold in each patient's ears, and generate a report.
 #### Vivek M. - 11/25/2024
 ### Description
 A single Python script named pipeline.py that generates trimmed fastq files for each patient, aligns each fastq file to the reference FASTA file (dgorgon_reference.fa), and then generates sorted BAM files for variant discovery.
