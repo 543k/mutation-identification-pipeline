@@ -1,4 +1,3 @@
-
 ## Python Pipeline Script
 #### Identifies SNPs causing colored mold in each patient's ears, and generate a report.
 #### Vivek M. - 11/25/2024
