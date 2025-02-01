@@ -93,7 +93,7 @@ def pileup(path):
         for base in ntdict:
             freq = round((ntdict[base]/baseCount)*100)
             if(freq != 0 and freq != 100):
-                returnList = [baseCount,round((ntdict[min(ntdict,key=ntdict.get)]/baseCount)*100),pileupcolumn.pos,min(ntdict,key=ntdict.get)]
+                returnList = [baseCount,round((ntdict[max(ntdict,key=ntdict.get)]/baseCount)*100),pileupcolumn.pos,max(ntdict,key=ntdict.get)]
                 return returnList
                 #print(base + " frequency is: "+str(freq)+" at position "+str(pileupcolumn.pos))
         #print (ntdict)
