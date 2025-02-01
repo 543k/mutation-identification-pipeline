@@ -20,4 +20,5 @@ How to Run:
 To execute the script, navigate to the directory containing the script file (ensuring the above input files are in the same directory) and run:
 
 chmod +X pipeline.py
+
 python3 pipeline.py
