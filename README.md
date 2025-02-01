@@ -8,7 +8,9 @@ A final report is written for the variant discovery (report.txt).
 Input:
 
 A txt file containing clinical data (named harrington_clinical_data.txt).
+
 A FASTA file called dgorgon_reference.fa containing a reference sequence for alignment.
+
 A FASTQ file called hawkins_pooled_sequences.fastq containing pooled sequence data of all patients.
 
 Output:
